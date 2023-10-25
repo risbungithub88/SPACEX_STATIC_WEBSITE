@@ -1,0 +1,267 @@
+
+header{
+
+}  
+   
+.links{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+
+}
+.logo{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 1000px;
+    height: 1000px; 
+}
+
+.fill-white{
+    fill: azure;
+}
+#navigation{
+    padding-left: 1100px;
+    
+    
+}
+.nav-items{
+    margin: 12px;
+    display: flex;
+    
+
+    
+    }
+
+    .nav-link{
+        display: flex;
+        align-items: stretch;
+    }
+    
+
+    .hyperlink{
+        color: white;
+        padding-right: 100px;
+    }
+
+   .right{
+
+    padding-left: 400px;
+    color: azure;
+    padding-top:10px;
+    font-size: 50px;
+   }
+
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .p-menu1{
+     height: 100%;
+     margin-left: 96%;
+     margin-top: -124px;
+     z-index: 10;
+  }
+  
+  
+  
+  
+  /* Hamburger */
+  .hamburger1 {
+    height: 61px;
+    margin: 10px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    z-index: 120;
+  }
+  
+  .hamburger1 div {
+    
+    background-color: azure;
+    position: relative;
+    width: 40px;
+    height: 5px;
+    margin-top: 7px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #toggle1 {
+    display: none;
+  }
+  
+  #toggle1:checked + .hamburger1 .top {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    margin-top: 22.5px;
+  }
+  
+  #toggle1:checked + .hamburger1 .meat {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    margin-top: -5px;
+  }
+  
+  #toggle1:checked + .hamburger1 .bottom {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  
+  #toggle1:checked ~ .menu1 {
+    height: 500px;
+    
+  }
+  
+  
+  
+  .menu1 {
+    width: 20%;
+    background-color: #02173F;
+    margin: 0;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: 1fr repeat(4, 0.5fr);
+    grid-row-gap: 25px;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    width: auto;
+    text-align: center;
+    height:0px;
+    overflow: hidden;
+    transition: height .4s ease;
+    z-index: 120px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-size: 50px;
+  }
+  
+  .menu1 a:first-child {
+    margin-top: 40px;
+  }
+  
+  .menu1 a:last-child {
+    margin-bottom: 40px;
+  }
+  
+  .link1 {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    font:'Oswald', sans-serif;
+    
+  }
+  
+  .link1:hover {
+    background-color: #fff;
+    color: rgb(61, 61, 61);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    
+  }
+    
+#navbar{
+  width: 50 px;
+
+}
+
+
+
+.p1{
+  
+  font-family: 'D-DIN-Medium', Arial, Verdana, sans-serif;
+  color: #FFFFFF;
+  font-size: 80px;
+  font-weight:normal;
+  line-height: 8px;
+}
+
+.p2{
+  font-size: 160px;
+  font-family: 'D-DIN-Medium', Arial, Verdana, sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height:8px;
+}
+.b1{
+  font-family:  D-DIN-Bold,Arial,Verdana,sans-serif;
+  background:fixed;
+  color: #FFFFFF;
+  font-size: 50px;
+  border-width: 50px;
+  line-height: 8px;
+  width: 750px;
+  height: 188px;
+  border-color: #fff;
+  border:solid;
+  
+  
+}
+
+.secondcontent{
+  
+position: absolute;
+    top: 1500px;
+    bottom:400px;
+    width:30%;
+     padding-left: 400px;
+     
+  }
+header{
+background-image: url(images/spacex.jpg);
+ 
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+}
+
+.section1{
+  background-image: url(images/Psyche_outside39abmound_IMG_8486_desktop_f5072ad69b.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.thirdcontent{
+  
+  position:static;
+    top: 1500px;
+    bottom:500px;
+    width:30%;
+     padding-left: 400px;
+     padding-top: 20%;
+     align-items: center;
+  }
+  footer{
+    
+      background-color:#000;
+      color: #FFFFFF;
+      height: 300px;
+      padding : 10px;
+      width: 100%;
+      display: flex;
+    font-size: 50px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+    
+      
+      
+    
+    .f1{
+      padding: 0 25px;
+      
+
+    }
+  
