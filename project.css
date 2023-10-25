@@ -216,7 +216,7 @@ position: absolute;
      
   }
 header{
-background-image: url(images/spacex.jpg);
+background-image: url(spacex.jpg);
  
 background-size: cover;
 background-repeat: no-repeat;
@@ -225,7 +225,7 @@ width: 100%;
 }
 
 .section1{
-  background-image: url(images/Psyche_outside39abmound_IMG_8486_desktop_f5072ad69b.jpg);
+  background-image: url(Psyche_outside39abmound_IMG_8486_desktop_f5072ad69b.jpg);
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
